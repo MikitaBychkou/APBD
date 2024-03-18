@@ -20,6 +20,19 @@
 
             return (double)sum / arr.Length;
         }
+
+        Console.WriteLine(findMax(arr));
+    }
+
+    public static int findMax(int[] arr)
+    {
+        int max = arr[0];
+        for (int i = 0; i < arr.Length; i++)
+        {
+            
+        }
+
+        return max;
     }
 }
 
