@@ -12,13 +12,13 @@
 
         static double GetAvg(int[] arr)
         {
-            int sum = 0;
+            int result = 0;
             foreach (var num in arr)
             {
-                sum += num;
+                result += num;
             }
 
-            return (double)sum / arr.Length;
+            return (double)result / arr.Length;
         }
 
         Console.WriteLine(findMax(arr));
